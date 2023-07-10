@@ -153,3 +153,13 @@ main{
     text-align: center;
     margin-top: 50px;
 }
+/*--footer style--*/
+footer{
+    display: flex;
+    background: #fff8f3;
+    margin-top: 100px;
+    padding: 10px 200px;
+}
+
+
+
