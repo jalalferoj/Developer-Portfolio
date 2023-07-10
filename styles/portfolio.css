@@ -55,7 +55,7 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
-/*  header related style*/
+/*  header related style */
 .header{
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png'), url('..images/developer.png');
@@ -67,6 +67,7 @@ nav a{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;  /* to keep gap between left words and right picture */
 }
 .banner-content{
     max-width: 500px;
