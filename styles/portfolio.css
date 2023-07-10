@@ -42,7 +42,7 @@ nav{
     font-weight: 800;
 }
 
-nav > ul{
+nav>ul{
     display: flex;
     align-items: center;
 }
@@ -50,16 +50,17 @@ nav > ul{
 nav li {
     list-style: none;
     margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
     color: #474747;
 }
-
 /*  header related style*/
 .header{
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('..images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    justify-content: space-between;
+    background-position: bottom right, top left;
 }
 
 .banner{
